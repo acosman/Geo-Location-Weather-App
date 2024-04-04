@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 function App() {
-  const apiKey = 'f026e77fa7cd8e90aee1e39c693dd9dc'; // Use your actual OpenWeatherMap API key
+  const apiKey = 'f026e77fa7cd8e90aee1e39c693dd9dc'; 
 
   const [data, setData] = useState({});
   const [location, setLocation] = useState('');
@@ -26,7 +26,7 @@ function App() {
           placeholder="Enter Location"
           type="text"/>
       </div>
-      {/* Conditional rendering based on data availability */}
+      {}
       {data.main && (
         <>
           <div className="top-">
